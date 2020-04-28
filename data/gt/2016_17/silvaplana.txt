@@ -1,0 +1,288 @@
+Lake: Silvaplana
+
+s = snow, when snow is on lake ice, lake frozen to ca. 90-100%
+i = ice, frozen lake to ca. 90-100%
+w = water, when lake has ca. 90-100% water
+ms = more snow, ca. 60-90%, but a small part water
+mi = more ice, ca. 60-90%, but a small part water
+mw = more water, ca. 60-90%, but a small part frozen
+c = clouds or fog covering all lake
+u = unclear, when you cannot judge the lake state
+
+————————————————
+
+-9999
+01.09 w
+02.09 w
+03.09 w
+04.09 w
+05.09 w
+06.09 w
+07.09 w
+08.09 w
+09.09 w
+10.09 w
+11.09 w
+12.09 w
+13.09 w
+14.09 w
+15.09 w
+16.09 w
+17.09 w
+18.09 w
+19.09 w
+20.09 w
+21.09 w
+22.09 w
+23.09 w
+24.09 w
+25.09 w
+26.09 w
+27.09 w
+28.09 w
+29.09 w
+30.09 w
+1.10 w c/mc
+2.10 w mc/c probably water
+3.10 w ms/s
+4.10 w s/ms
+5.10 w s
+6.10 w mc/ms
+7.10 w c/mc
+8.10 w mc/ms
+9.10 w c fog and low clouds
+10.10 w mc first snow at lake border
+11.10 w ms/mc 
+12.10 w s/ms
+13.10 w c snow in mountains nearby
+14.10 w c fog and low clouds
+15.10 w c probably water
+16.10 w s 
+17.10 w c probably more water
+18.10 w c/mc probably water
+19.10 w c/mc probably more water (Sentinel2: probably water)
+20.10 w s/ms probably more water 
+21.10 w mc/ms probably water
+22.10 w ms/s
+23.10 w c probably water
+24.10 w c foggy
+25.10 w c foggy
+26.10 w c low clouds and fog
+27.10 w ms/s 
+28.10 w s 
+29.10 w s (Sentinel2: water)
+30.10 w s 
+31.10 w s reflections due to sun makes it a bit confusing
+1.11 w s 
+2.11 w c probably water
+3.11 w s
+4.11 w c
+5.11 w c fog covered
+6.11 mw c fog covered
+7.11 mw mc/ms 
+8.11 w s (Sentinel2: water)
+9.11 mw c probably water
+10.11 mw mc 
+11.11 mw c probably water
+12.11 mw s
+13.11 w c shadow of mountain nearby is confusing
+14.11 w s
+15.11 mw ms
+16.11 mw mc 
+17.11 mw c
+18.11 mw c probably more water
+19.11 mw c 
+20.11 w c
+21.11 w c probably water (difficult to judge due to fog)
+22.11 w c 
+23.11 w c
+24.11 w c
+25.11 mw c probably some ice in the south-west part
+26.11 mw c unclear due to fog, probably more water
+27.11 mw ms/mc probably more water
+28.11 w s
+29.11 w s slightly foggy above the lake making it difficult to judge (probably more water)
+30.11 w s 
+1.12 w/mw mc 
+2.12 w/mw s
+3.12 mw mc probably more ice
+4.12 mi ms 
+5.12 mw s
+6.12 mw s 
+7.12 mw s 
+8.12 w s some floating thin ice  (Sentinel2: water)
+9.12 mw mc shadow of mountains making it unclear to judge (probably more water)
+10.12 mi s
+11.12 mi c
+12.12 mw ms unclear to judge but there is definitely some ice how much is unclear (probably more water)? Cloud changed very frequently during the day
+13.12 mi ms champfer is fully icy
+14.12 mw/mi s
+15.12 mi/mw s
+16.12 mw s some floating ice
+17.12 mw s, unclear
+18.12 mw s, unclear  (Sentinel2: mainly water and a bit of ice in the south part of lake)
+19.12 mw c , unclear
+20.12 mi c, unclear
+21.12 mw/mi s , unclear
+22.12 mw s thin ice (16:00 more thin i, but seems some w at back)
+23.12 mw s thin ice unclear if all thin i or some w
+24.12 mi c (16:00 thin i or w? seems more i, but quite some water)
+25.12 mi c probably more ice (16:00 thin i or w?)
+26.12 mi ms (16:00 thin i or w?)
+27.12 mi s (12:00 u, like 28.12, 12:00 thin ice mostly, little w front)
+28.12 mw/mi s (12:00 all thin ice? 16:00 seems all thin i)  (Sentinel2: ice or water ? cannot judge from sentinel)
+29.12 mw s (12:00 thin i, some w back, 16:00 most thin i, some w)
+30.12 mw/w s (12:00 thin ice?, some w back, 16:00 most thin i, some w (less than 29.12)
+31.12 mi/w s (16:00 seems all thin i)
+1.1 mi/i s (12:00 some water at front, 16:00 mi, quite some w)
+2.1 i/mi ms (12:00 more ice than 1.1, little water, 16:10 mi, quite some water)
+3.1 i s (12:00 mi, water (more than 1.1)  at back, 16:00 thin ice, quite some water)
+4.1 i ms (12:00 like 1.1, 15:00 thin ice, quite some water, more than 3.1)
+5.1 i c low clouds, probably ice with snow over it in some parts (12:00, mi, w? 16:00 seems quite some water, like 4.1)
+6.1 i/s s probably no water at all, mostly ice and snow above it at some parts (14:00 lots of water, 15:00 like 5.1 more w)
+7.1 i/s mc mostly a mix of ice and snow, a little water too (15:00 very little water, much thin ice) (Sentinel2: some parts look like water)
+8.1 i/s c (lots of water or thin i?, 14:00 and 15:00)
+9.1 i/s s (15:00 quite some water)
+10.1 i/s c , maybe a mixture of all 3 classes (only one image, some little water, quite some thin ice forming where on 11.1 frozen)
+11.1 s/i s (14:00 little water in NE, maybe ice-on or on 12-13.1, 12.1 more safe)
+12.1 i/s s (seems almost all ice, black ice? or also water? seems all ice, s. 13-14:00)
+13.1 s c rest area either ice or water (15:00, mostly frozen, still some (area-wise) water in NE, but not seen in SeglMaria)
+14.1 s c ice in some parts (very little water 16:00, bit more than 15 and 16.1)
+15.1 s ms ice in some parts (12:00 and 14:00 practically all frozen)
+16.1 s s (12:00 practically all frozen) 
+17.1 s s (as 16.1, bit bit water in NE)
+18.1 s s (11:10, surely all frozen)
+19.1 s s (16:10 all frozen)
+20.1 s s
+21.1 s s
+22.1 s s
+23.1 s s
+24.1 s s
+25.1 s s 
+26.1 s s
+27.1 s s
+28.1 s c
+29.1 s s
+30.1 s c
+31.1 s c very cloudy in elparadiso. Snow easily visible in other cams
+1.2 s c very cloudy
+2.2 s c low clouds
+3.2 s c low clouds
+4.2 s c 
+5.2 s c
+6.2 s c low clouds
+7.2 s ms
+8.2 s c
+9.2 s c 
+10.2 s c low clouds
+11.2 s ms 
+12.2 s mc
+13.2 s s
+14.2 s s
+15.2 s s
+16.2 s s
+17.2 s mc
+18.2 s s
+19.2 s s
+20.2 s s  
+21.2 s mc
+22.2 s s
+23.2 s s
+24.2 s c
+25.2 s s
+26.2 s mc
+27.2 s s
+28.2 s c very low clouds, judged from cam 14
+1.3 s mc
+2.3 s ms 
+3.3 s ms/mc
+4.3 s c
+5.3 s c
+6.3 s c
+7.3 s c/mc
+8.3 s s
+9.3 s c very low clouds
+10.3 s s
+11.3 s s
+12.3 s ms/s
+13.3 s s
+14.3 s s
+15.3 s ms/mc
+16.3 s s 
+17.3 s s snow depth decreased
+18.3 s/ms c snow melting on lake
+19.3 s/i c very thin snow layer on ice 
+20.3 s/i s
+21.3 s/i c low clouds 
+22.3 s/i c all clouds, judged from image at 18:00
+23.3 s/i c
+24.3 s/i c
+25.3 s/i s 
+26.3 i/s s 
+27.3 i/s s
+28.3 s/i s (Sentinel2: ice with thin layer of snow on top)
+29.3 i/s s 
+30.3 i/s s  
+31.3 i/s s (very very little water)
+1.4 i/s mc (16:20, practically all frozen)
+2.4 i/s mc (16:20, practically all frozen)
+3.4 i/s s (16:20, practically all frozen)
+4.4 i c snow almost disappeared (16:20, practically all frozen)
+5.4 i ms (16:20, practically all frozen)
+6.4 i/s ms sunny in the evening (16:20, all frozen)
+7.4 i/s ms (16:20, practically all frozen)
+8.4 i/s s (16:20, most frozen, little water?)
+9.4 i s snow almost disappeared (16:20, most frozen, little water?)
+10.4 i s/ms (10:50 etc. almost all ice, water at outflow of Inn)
+11.4 i c  (mostly ice, little water in evening) ice-off? (though process started on about 9.4 and continued to 13.4)
+12.4 i/s s (as 11.4, water at outflow of Inn, more water than 11.4)
+13.4 i ms (mostly ice, quite some water, more than 12.4 )
+14.4 mi s (quite some water, much more than 13.4)
+15.4 mi/mw ms (mostly water)
+16.4 mw/mi c/mc
+17.4 mw/mi c/mc
+18.4 w c
+19.4 w ms
+20.4 w s
+21.4 w s 
+22.4 w s 
+23.4 w s
+24.4 w c unclear due to very low clouds (probably water)
+25.4 w c low clouds
+26.4 w c low clouds, judged the state from cam19 still a bit unclear (probably water)
+27.4 w c low clouds, judged the state from cam17
+28.4 w c low clouds, probably water
+29.4 w/mw s 
+30.4 mw ms 
+01.05 w After here no data, assumed water
+02.05 w
+03.05 w
+04.05 w
+05.05 w
+06.05 w
+07.05 w Detected from S2
+08.05 w After here no data, assumed water
+09.05 w
+10.05 w
+11.05 w
+12.05 w
+13.05 w
+14.05 w
+15.05 w
+16.05 w
+17.05 w
+18.05 w
+19.05 w
+20.05 w
+21.05 w
+22.05 w
+23.05 w
+24.05 w
+25.05 w
+26.05 w
+27.05 w
+28.05 w
+29.05 w
+30.05 w
+31.05 w
+

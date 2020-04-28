@@ -1,0 +1,276 @@
+Lake: Sils
+
+-9999
+01.09 w
+02.09 w
+03.09 w
+04.09 w
+05.09 w
+06.09 w
+07.09 w
+08.09 w
+09.09 w
+10.09 w
+11.09 w
+12.09 w
+13.09 w
+14.09 w
+15.09 w
+16.09 w
+17.09 w
+18.09 w
+19.09 w
+20.09 w
+21.09 w
+22.09 w
+23.09 w
+24.09 w
+25.09 w
+26.09 w
+27.09 w
+28.09 w
+29.09 w
+30.09 w
+1.10 w c
+2.10 w mc/c
+3.10 w s
+4.10 w s
+5.10 w s strange like ice in the middle
+6.10 w s/ms
+7.10 w ms
+8.10 w ms
+9.10 w c
+10.10 w mc first snow at lake border and then back at 5.11
+11.10 w c no snow
+12.10 w s white reflections in front why? and dark shadows in the middle center?
+13.10 w c no snow
+14.10 w c fog and low clouds (wwwwww->u->u->mw, probably both the u are either mw or w, assigned mw)
+15.10 w c probably water, interesting image (reflections of clouds and objects on lake without sun)
+16.10 mw s some ice
+17.10 w c
+18.10 mw mc a bit unclear (w->mi improbable especially in beginning of october so updated to mw)
+19.10 mw <- mi mc
+20.10 mw <- mi s 
+21.10 mw ms
+22.10 w ms
+23.10 w c
+24.10 w c
+25.10 w c
+26.10 w c
+27.10 w s very little snow even in the mountains
+28.10 w ms from Sentinel2 it looks fully water
+29.10 mw s back may be frozen
+30.10 mw <- mi s not very clear
+31.10 mw s  (improbable transition mi->w, so updated to mw)
+1.11 w s little ice
+2.11 w c ice at back?
+3.11 w s
+4.11 w c (most probably w in between 2 adjacent days water)
+5.11 w c most area cloud covered, snow
+6.11 mw c at front maybe water (highly improbable label w>i>u>w, assigned today and next day as mw)
+7.11 mw ms probably top part frozen
+8.11 w s
+9.11 w c
+10.11 w c back is unclear
+11.11 w c
+12.11 w s
+13.11 mw c (highly improbable transition from w->mi->w so changed to mw)
+14.11 w s
+15.11 mw s (highly improbable transition from w->mi->mw so changed to mw)
+16.11 mw c 
+17.11 mw/w c
+18.11 w c (changed from u to w as the adjacent days have label w and mw/w)
+19.11 w c evaluation unclear
+20.11 w c
+21.11 w c
+22.11 w c snow starts diminishing and after 26.11 very little
+23.11 w c
+24.11 w c (changed from mi to w as it occurs in between a 10 day stream of water)
+25.11 w c
+26.11 w c
+27.11 w s
+28.11 w s
+29.11 w s seems a bit ice, strange shadows at front, camera artifacts? see sudden vertical edge at front/right middle
+30.11 w s (why different reflections between 29 and 30.11? )
+1.12 mw c looks mostly ice  (changed from u/mi to mw as it occurs in between a 10 day stream of water with one of adjacent days mw)
+2.12 mw s
+3.12 w c
+4.12 w ms first time 2nd camera
+5.12 w s
+6.12 w s why in 6 no reflections compared to 5.12 and 7.12 although all sunny?
+7.12 w s little thin ice
+8.12 w s looks fully water in Sentinel 2 image
+9.12 mw mc (w->u->mi, most probably w->mw->mi), Most probably the dates between 8.12 and 18.12 are either w or mw (see sentinel 2 images for both these dates, slow formation of ice innthe south end of lake)
+10.12 mw s see the comment on 9.12
+11.12 mw c see the comment on 9.12
+12.12 w s
+13.12 mw s see the comment on 9.12
+14.12 mw s see the comment on 9.12
+15.12 w s
+16.12 mw s
+17.12 mw s see the comment on 9.12
+18.12 w s There exist some ice in the south west part of the lake (from Sentinel 2) but looks like it is less than 15% so 'w'
+19.12 w c what is the white part in front and on the right?
+20.12 w c
+21.12 mw mc thin ice about 50% (w->mw is more probable than w->mi)
+22.12 mw s thin ice about 50%
+23.12 mi s thin ice about 50%
+24.12 mw c seems like 50/50 water ice (mi->u->w, most probably mi->mw->w)
+25.12 w c
+26.12 mw s (w->u->mi, most probably w->mw->mi)
+27.12 mw s quite some water (mw->mi->w, most probably mw->mw->w)
+28.12 w s 
+29.12 mw s
+30.12 mw/w s unclear in the back whether ice
+31.12 mi s quite some water
+1.1 mi s more thin ice but also water, much more than 2.1 and 3.1, 2C rather yes, 3C yes
+2.1 i mc very little water front , 2C rather yes, 3C yes
+3.1 i s very little water front no snow WHAT IS THE BLACK SPOT in front on 3.1.17 15:30, 2C rather yes, 3C yes
+4.1 i s no snow, rapid change to 5.1, 11 deg T drop, 2C rather yes, 3C yes
+5.1 s c little water front and middle, snow, 2C s (12:45),3C yes
+6.1 s s definitely some water, more than 5.1, 2C ms/s, 3C yes and even more water
+7.1 s/i mc as 6.1 3C yes, more ice (11:30) than SeglMaria
+8.1 s c seems first day with total ice, also from 2C, 3C yes
+9.1 s s 3C yes
+10.1 s c
+11.1 s s
+12.1 s s some water (or thin/black ice?) at front and center left
+13.1 s c
+14.1 s c
+15.1 s s
+16.1 s s
+17.1 s s
+18.1 s s
+19.1 s s
+20.1 s s
+21.1 s s
+22.1 s s
+23.1 s ms
+24.1 s s
+25.1 s s bit water outflow
+26.1 s s
+27.1 s s
+28.1 s c
+29.1 s s
+30.1 s c
+31.1 s c low clouds
+1.2 s c very low clouds
+2.2 s c low clouds
+3.2 s c all clouds (interpolated from previous and next day)
+4.2 s c very low clouds
+5.2 s c
+6.2 s c
+7.2 s c
+8.2 s c
+9.2 s ms 
+10.2 s c very low clouds
+11.2 s ms
+12.2 s mc
+13.2 s s
+14.2 s s
+15.2 s s
+16.2 s s
+17.2 s mc
+18.2 s s
+19.2 s s
+20.2 s ms  
+21.2 s c/mc
+22.2 s s
+23.2 s c
+24.2 s c
+25.2 s s
+26.2 s c
+27.2 s c
+28.2 s c all clouds (interpolated from previous and next days)
+1.3 s s
+2.3 s mc see some ice or rather cloud shadows?
+3.3 s c
+4.3 s c
+5.3 s c
+6.3 s c
+7.3 s c
+8.3 s mc
+9.3 s c
+10.3 s s
+11.3 s s
+12.3 s mc
+13.3 s s
+14.3 s s
+15.3 s ms/mc
+16.3 s s snow starts to melt on ice, partly saturated image
+17.3 s s snow starts to melt on ice, partly saturated image
+18.3 s/i mc snow melting on lake
+19.3 i/s c
+20.3 i/s s
+21.3 i/s c low clouds, start thawing? snow melts on ground at front
+22.3 i/s c all clouds (interpolated from previos day and next day)
+23.3 i/s c
+24.3 s/i c
+25.3 s/i s outflow starts thawing
+26.3 i/s s outflow water
+27.3 s/i s
+28.3 i/s s ice with thin snow layer on top
+29.3 i/s s 
+30.3 i/s ms  
+31.3 i/s s
+1.4 i/s mc almost no snow on land front
+2.4 i/s c
+3.4 i/s s 
+4.4 i/s c more frozen than 3.4
+5.4 i/s mc a little water at front right
+6.4 i/s ms more ice than 5.4
+7.4 i/s ms a bit more water than 6.4 
+8.4 i/s s more water than 7.4 in front and at outflow but great majority frozen, start of thawing?
+9.4 i/s s very little more water than 8.4 but less infront
+10.4 i ms similar to 9.4 but at center white strips why?
+11.4 i/s c as 10.4, much more water than 10.4 front and outflow, clear start of thawing
+12.4 mi/s s big change to 11.4, much more water than 11.4 but majority frozen, surely thawing, RAPID CHANGE TO 13.4
+13.4 mw s front almost all water, except maybe center left and background
+14.4 w s back unclear
+15.4 w ms some thin ice?
+16.4 w c very little thin ice?
+17.4 w mc
+18.4 w c
+19.4 w mc
+20.4 w s
+21.4 mw/w s seems to have quite some thin ice see 7:00 but not at 9:00
+22.4 mw/w s also some thin ice at 8:00 and back?
+23.4 w s
+24.4 w c at 9:00am, at 12:00 all clouds
+25.4 w c used 18:00 many low clouds
+26.4 w c used 18:00 image, too many low clouds, lots of snow on land, check T
+27.4 w c used 15:00, low clouds, artifacts at 17:00 and 18:00
+28.4 w c low clouds
+29.4 w/mw s some or more? thin ice at 14:00 but disappears at 15:00
+30.4 w ms snow on land
+1.5 w c low clouds
+2.5 w mc
+3.5 w c strange colors 9:00 = thin ice? rather not
+4.5 w c
+5.5 w s
+6.5 w c snow
+7.5 w c check 8:00 thin ice? rather not, medium snow on land
+8.5 w c unclear at 12:00 but probably all water very little snow
+9.5 w s no snow
+10.5 w ms
+11.05 mw After this date it's assumed w or mw, taking gt value from 2017_18
+12.05 mw
+13.05 mw
+14.05 mw
+15.05 mw
+16.05 mw
+17.05 mw
+18.05 w
+19.05 w
+20.05 w
+21.05 w
+22.05 w
+23.05 w
+24.05 w
+25.05 w
+26.05 w
+27.05 w
+28.05 w
+29.05 w
+30.05 w
+31.05 w

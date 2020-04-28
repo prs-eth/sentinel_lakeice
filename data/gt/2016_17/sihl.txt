@@ -1,0 +1,297 @@
+Lake: Sihl
+Operator: Mathias Rothermel
+Extent of evaluation: 1.10.2016 to 30.4.2017
+Cameras: Cam 12 (number as used in 1st year report; note that the camera is rotating, so the area imaged is not always the same) and during the gap period of Cam 12 from
+18.3.2017 to 25.4.2017 the Eawag cam 26 (with very good overview of the Sihlsee from the south) was used.
+
+No cloud observations made.
+
+Explanation of lake status:
+The % below refers to the visible area of the lake, potentially excluding the far part of the lake which you generally cannot judge, except in case of snow. Clearly these % are a matter of personal judgement and only approximate.
+
+s = snow, when snow is on lake ice, lake frozen to ca. 90-100%
+i = ice, frozen lake to ca. 90-100%
+w = water, when lake has ca. 90-100% water
+ms = more snow, ca. 60-90%, but a small part water
+mi = more ice, ca. 60-90%, but a small part water
+mw = more water, ca. 60-90%, but a small part frozen
+c = clouds or fog covering all lake
+u = unclear, when you cannot judge the lake state
+n = no webcam data acquired
+
+————————————————
+
+-9999 (code before the actual data to automatically parse the file)
+01.09 w
+02.09 w
+03.09 w
+04.09 w
+05.09 w
+06.09 w
+07.09 w
+08.09 w
+09.09 w
+10.09 w
+11.09 w
+12.09 w
+13.09 w
+14.09 w
+15.09 w
+16.09 w
+17.09 w
+18.09 w
+19.09 w
+20.09 w
+21.09 w
+22.09 w
+23.09 w
+24.09 w
+25.09 w
+26.09 w
+27.09 w
+28.09 w
+29.09 w
+30.09 w
+1.10 w
+2.10 w
+3.10 w
+4.10 w
+5.10 w
+6.10 w
+7.10 w
+8.10 w
+9.10 w
+10.10 w
+11.10 w
+12.10 w
+13.10 w
+14.10 w
+15.10 w
+16.10 w
+17.10 w
+18.10 w
+19.10 w
+20.10 w
+21.10 w
+22.10 w
+23.10 w
+24.10 w
+25.10 w
+26.10 w
+27.10 w
+28.10 w
+29.10 w
+30.10 w
+31.10 w
+1.11 w
+2.11 w
+3.11 w
+4.11 w
+5.11 w
+6.11 w
+7.11 w
+8.11 w
+9.11 w
+10.11 w
+11.11 w
+12.11 w
+13.11 w
+14.11 w
+15.11 w
+16.11 w
+17.11 w
+18.11 w
+19.11 w
+20.11 w
+21.11 w
+22.11 w
+23.11 w
+24.11 w
+25.11 w
+26.11 w
+27.11 w
+28.11 w
+29.11 w
+30.11 w
+1.12 w
+2.12 w
+3.12 w
+4.12 w
+5.12 w
+6.12 w
+7.12 w
+8.12 w on this date here some parts of the south of the lake started freezing but still less than 15% so label 'w'
+9.12 w
+10.12 w
+11.12 w
+12.12 w
+13.12 w
+14.12 w
+15.12 w
+16.12 w
+17.12 mw
+18.12 w on this date here some parts of the south of the lake started freezing but still less than 15% so label 'w'
+19.12 w   
+20.12 w
+21.12 w
+22.12 mw
+23.12 mw
+24.12 mw
+25.12 mw
+26.12 mw
+27.12 mw
+28.12 mw
+29.12 mw
+30.12 mi  
+31.12 i very probable ice-on
+1.1 i  
+2.1 i
+3.1 s
+4.1 s
+5.1 s
+6.1 s
+7.1 s
+8.1 s
+9.1 s
+10.1 s
+11.1 s
+12.1 s/i
+13.1 s/i
+14.1 s
+15.1 s
+16.1 s
+17.1 s
+18.1 s
+19.1 s
+20.1 s
+21.1 s
+22.1 s
+23.1 s
+24.1 s
+25.1 s
+26.1 s
+27.1 s
+28.1 s
+29.1 s
+30.1 s
+31.1 s/i
+1.2 s/i
+2.2 s/i
+3.2 s/i
+4.2 i
+5.2 i
+6.2 s
+7.2 s  
+8.2 s
+9.2 s
+10.2 s
+11.2 s
+12.2 s
+13.2 s
+14.2 s
+15.2 s
+16.2 s
+17.2 s
+18.2 s
+19.2 s
+20.2 s
+21.2 s
+22.2 s
+23.2 s  
+24.2 s
+25.2 s
+26.2 s
+27.2 s
+28.2 s
+1.3 s
+2.3 i
+3.3 i
+4.3 i
+5.3 i
+6.3 i
+7.3 i
+8.3 s/i the non-snowy area in the south of ice from sentinel is assumed to be ice and not water
+9.3 s
+10.3 i
+11.3 i/s the non-snowy area in the south of ice from sentinel is assumed to be ice and not water
+12.3 i
+13.3 i
+14.3 mi/i ice-off? or less 15.3?
+15.3 mi/i 
+16.3 mi or rather mw?
+17.3 mw
+18.3 w (from here to 25.4 data is not available likely w, from EAWAG cam26)
+19.3 w
+20.3 w
+21.3 w
+22.3 w
+23.3 w
+24.3 w
+25.3 w
+26.3 w
+27.3 w
+28.3 w
+29.3 w
+30.3 w
+31.3 w
+1.4 w
+2.4 w
+3.4 w
+4.4 w
+5.4 w
+6.4 w
+7.4 w
+8.4 w
+9.4 w
+10.4 w
+11.4 w
+12.4 w
+13.4 w
+14.4 w
+15.4 w
+16.4 w
+17.4 w
+18.4 w
+19.4 w
+20.4 w
+21.4 w
+22.4 w
+23.4 w
+24.4 w
+25.4 w
+26.4 w
+27.4 w
+28.4 w
+29.4 w
+30.4 w
+01.05 w After this date there was no data, then set to water
+02.05 w
+03.05 w
+04.05 w
+05.05 w
+06.05 w 
+07.05 w
+08.05 w
+09.05 w
+10.05 w
+11.05 w
+12.05 w
+13.05 w
+14.05 w
+15.05 w
+16.05 w
+17.05 w
+18.05 w
+19.05 w
+20.05 w
+21.05 w
+22.05 w
+23.05 w
+24.05 w
+25.05 w
+26.05 w
+27.05 w
+28.05 w
+29.05 w
+30.05 w
+31.05 w

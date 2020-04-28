@@ -1,0 +1,287 @@
+Lake: Silvaplana
+
+s = snow, when snow is on lake ice, lake frozen to ca. 90-100%
+i = ice, frozen lake to ca. 90-100%
+w = water, when lake has ca. 90-100% water
+ms = more snow, ca. 60-90%, but a small part water
+mi = more ice, ca. 60-90%, but a small part water
+mw = more water, ca. 60-90%, but a small part frozen
+c = clouds or fog covering all lake
+u = unclear, when you cannot judge the lake state
+
+————————————————
+
+-9999
+01.09 w
+02.09 w
+03.09 w
+04.09 w
+05.09 w
+06.09 w
+07.09 w
+08.09 w
+09.09 w
+10.09 w
+11.09 w
+12.09 w
+13.09 w
+14.09 w
+15.09 w
+16.09 w
+17.09 w
+18.09 w
+19.09 w
+20.09 w
+21.09 w
+22.09 w
+23.09 w
+24.09 w
+25.09 w
+26.09 w
+27.09 w
+28.09 w
+29.09 w
+30.09 w
+01.10 w
+02.10 w
+03.10 w foggy
+04.10 w
+05.10 w
+06.10 w
+07.10 w
+08.10 w
+09.10 w
+10.10 w
+11.10 w
+12.10 w
+13.10 w
+14.10 w
+15.10 w
+16.10 w
+17.10 w
+18.10 w
+19.10 w
+20.10 w
+21.10 w
+22.10 w
+23.10 w
+24.10 w
+25.10 w
+26.10 w
+27.10 w
+28.10 w
+29.10 w
+30.10 w
+31.10 w
+01.11 w
+02.11 w
+03.11 w
+04.11 w
+05.11 w
+06.11 w first day snow was seen - double_check
+07.11 w
+08.11 w
+09.11 w
+10.11 w
+11.11 w
+12.11 w
+13.11 w
+14.11 w
+15.11 w
+16.11 w 
+17.11 w
+18.11 w
+19.11 w
+20.11 w mw some parts seem to have snow
+21.11 w
+22.11 w
+23.11 w
+24.11 w
+25.11 w
+26.11 w
+27.11 w
+28.11 w
+29.11 w
+30.11 w
+01.12 w
+02.12 w
+03.12 mw
+04.12 w
+05.12 w
+06.12 w
+07.12 w
+08.12 w foggy
+09.12 w
+10.12 w
+11.12 c w
+12.12 mw
+13.12 mw
+14.12 mw
+15.12 mw
+16.12 mw
+17.12 mw
+18.12 mw
+19.12 mw w
+20.12 mw w
+21.12 mw w
+22.12 mw w
+23.12 mw w
+24.12 mw
+25.12 mw
+26.12 mw
+27.12 s foggy, most probably completetely snowed
+28.12 mi/ms
+29.12 mw
+30.12 ms
+31.12 ms
+01.01 s
+02.01 s foggy
+03.01 s
+04.01 s
+05.01 s
+06.01 ms/mi
+07.01 s
+08.01 ms/mi
+09.01 ms/mi
+10.01 s
+11.01 s
+12.01 s Few ice borders detected with Landsat
+13.01 s
+14.01 s
+15.01 s
+16.01 s
+17.01 s
+18.01 s
+19.01 s
+20.01 s
+21.01 s
+22.01 s
+23.01 s
+24.01 s
+25.01 s
+26.01 s
+27.01 s
+28.01 s ms Landsat
+29.01 s
+30.01 s
+31.01 s
+01.02 s
+02.02 s
+03.02 s
+04.02 s
+05.02 s
+06.02 s
+07.02 s
+08.02 s
+09.02 s
+10.02 s
+11.02 s
+12.02 s
+13.02 s
+14.02 s
+15.02 s
+16.02 s
+17.02 s
+18.02 s
+19.02 s
+20.02 s
+21.02 s
+22.02 s
+23.02 s
+24.02 s
+25.02 s
+26.02 s
+27.02 s
+28.02 s
+01.03 s
+02.03 s
+03.03 s foggy
+04.03 s
+05.03 s
+06.03 s
+07.03 s
+08.03 s
+09.03 s
+10.03 s
+11.03 s
+12.03 s foggy
+13.03 s
+14.03 s
+15.03 s
+16.03 s
+17.03 s
+18.03 s
+19.03 s
+20.03 s
+21.03 s
+22.03 s
+23.03 s
+24.03 s
+25.03 s
+26.03 s
+27.03 s
+28.03 s
+29.03 s
+30.03 s foggy
+31.03 s
+01.04 s
+02.04 s
+03.04 s
+04.04 s very cloudy
+05.04 s
+06.04 s
+07.04 ms/mi Ice detected on S2
+08.04 s
+09.04 s
+10.04 ms
+11.04 s
+12.04 s
+13.04 s
+14.04 s
+15.04 s
+16.04 ms
+17.04 ms/mi Ice detected on S2
+18.04 ms/mi Landsat
+19.04 ms/mi
+20.04 ms/mi
+21.04 ms/mi
+22.04 ms/mi S2 data only
+23.04 ms/mi
+24.04 ms/mi
+25.04 ms/mi
+26.04 ms/mi
+27.04 mi
+28.04 mi
+29.04 mi
+30.04 mi/mw Melting detected on webcam
+01.05 mi/m/w
+02.05 mi/mw
+03.05 mw
+04.05 mw
+05.05 w
+06.05 w
+07.05 w Detected from S2
+08.05 w
+09.05 w
+10.05 w
+11.05 w
+12.05 w
+13.05 w
+14.05 w
+15.05 w
+16.05 w
+17.05 w
+18.05 w
+19.05 w
+20.05 w
+21.05 w
+22.05 w
+23.05 w
+24.05 w
+25.05 w
+26.05 w
+27.05 w
+28.05 w
+29.05 w
+30.05 w
+31.05 w
