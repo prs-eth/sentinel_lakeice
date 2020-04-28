@@ -54,7 +54,8 @@ Example for downloading Sils lake images for winter 2017-18 with VV available on
 
 * To download several images, run the script data_scripting/gee_browser.js on the browser once GEE tasks are ready after running the downloading script.
 
-###Citation
+### Citation
+
 Kindly cite our paper, if you use this repo:
 
 @inproceedings{tom_aguilar_2020:isprs, author={Tom, M. and Aguilar, R. and Imhof, P. and Leinss, S. and Baltsavias, E. and Schindler, K.}, booktitle={ISPRS Congress}, title={Lake Ice Detection from Sentinel-1 SAR with Deep Learning}, year={2020}, }
