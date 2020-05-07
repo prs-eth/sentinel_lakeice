@@ -16,9 +16,17 @@ The required libraries can be installed by running
 
 ## To run a validation test with existing dataset:
 
-> cd models/research/deeplab
+> cd models/research/deeplab&nbsp;
 > bash train_and_val_sar_ice.sh 2016_17_2017_18_vv_vh_sils_silvaplana_stmoritz_2016_17 2016_17_regionsils mobilenet_v2 V
 -----
+##### Parameters:
+- Dataset: 2016_17_2017_18_vv_vh_sils_silvaplana_stmoritz_2016_17
+- Experiment folder folder:
+    - Input weights shall be placed in *train* subfolder
+    - Output visualization images will be stored in *vis* subfolder
+- Network: mobilenet_v2
+- V: validation mode
+
 Takes ~30 min on GPU Quadro M1200
 Results are stored in models/research/deeplab/datasets/sar_ice/exp_2016_17_regionsils
 ### Sample dataset
@@ -38,14 +46,26 @@ It was generated with the script data_scripting/preprocessing_sar.ipynb and in s
 
 > bash train_and_val_sar_ice.sh 2016_17_2017_18_vv_vh_sils_silvaplana_stmoritz_2016_17 2016_17_regionsils mobilenet_v2 TV 0.001 40000 1 8 129
 -----
+##### Parameters:
+- Dataset: 2016_17_2017_18_vv_vh_sils_silvaplana_stmoritz_2016_17
+- Output folder: 2016_17_regionsils
+- Network: mobilenet_v2
+- TV: validation mode
+- Initial learning rate: 0.001
+- Number of steps: 40000
+    - This hyperparameter needs to be recalculated when adding a new lake
+- Atrous rate: 1 -> it generates a [1,2,3] value
+- Batch size: 8
+- Patch size: 129 -> it generates a 129x129 pixels window
+
 Takes ~8 hours on GeForceGTX1080Ti
 
 ## To generate a new dataset:
-> Download images from https://polybox.ethz.ch/index.php/s/AjRHiOQhvf0vrku
-> Place sentinel1 folder into data/rasters/
-> Open data_scripting/preprocessing_sar.ipynb
-> Configure winter and lakes for training and validation set
-> Update models/research/deeplab/datasets/segmentation_dataset.py
+> Download images from https://polybox.ethz.ch/index.php/s/AjRHiOQhvf0vrku&nbsp;
+> Place sentinel1 folder into data/rasters/&nbsp;
+> Open data_scripting/preprocessing_sar.ipynb&nbsp;
+> Configure winter and lakes for training and validation set&nbsp;
+> Update models/research/deeplab/datasets/segmentation_dataset.py&nbsp;
 
 ## Download from Google Earth Engine
 
