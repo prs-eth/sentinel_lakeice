@@ -80,4 +80,4 @@ Example for downloading Sils lake images for winter 2017-18 with VV available on
 
 Kindly cite our paper, if you use this repo:
 
-@inproceedings{tom_aguilar_2020:isprs, author={Tom, M. and Aguilar, R. and Imhof, P. and Leinss, S. and Baltsavias, E. and Schindler, K.}, booktitle={ISPRS Congress}, title={Lake Ice Detection from Sentinel-1 SAR with Deep Learning}, year={2020}, }
+@inproceedings{tom_aguilar_2020:isprs, author={Tom, M. and Aguilar, R. and Imhof, P. and Leinss, S. and Baltsavias, E. and Schindler, K.}, booktitle={arXiv preprint:arXiv:2002.07040}, title={Lake Ice Detection from Sentinel-1 SAR with Deep Learning}, year={2020}, }
