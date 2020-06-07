@@ -1,7 +1,6 @@
 # Lake Ice Detection from Sentinel-1 SAR with Deep Learning
 
-This repository contains the source code, dataset and pre-trained models corresponding to the paper [Lake Ice Detection from Sentinel-1 SAR with Deep Learning](https://arxiv.org/pdf/2002.07040.pdf) (accepted for ISPRS Congress, 2020, Nice, France), 
-Roberto Aguilar, Manu Tom, Pascal Imhof, Silvan Leinss, Emmanuel Baltsavias, Konrad Schindler
+This repository contains the source code, dataset and pre-trained models corresponding to the paper [Lake Ice Detection from Sentinel-1 SAR with Deep Learning](https://arxiv.org/pdf/2002.07040.pdf) (accepted for ISPRS Congress, 2020, Nice, France)
 
 This work is part of the [Lake Ice Project (Phase 2)](https://prs.igp.ethz.ch/research/current_projects/integrated-lake-ice-monitoring-and-generation-of-sustainable--re.html). Here is the link to [Phase 1](https://prs.igp.ethz.ch/research/completed_projects/integrated-monitoring-of-ice-in-selected-swiss-lakes.html) of the same project.
 
