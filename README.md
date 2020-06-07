@@ -18,8 +18,9 @@ The required libraries can be installed by running
 
 ## To run a validation test with existing dataset:
 
-> cd models/research/deeplab&nbsp;
-> bash train_and_val_sar_ice.sh 2016_17_2017_18_vv_vh_sils_silvaplana_stmoritz_2016_17 2016_17_regionsils mobilenet_v2 V
+Download the [zip file](https://polybox.ethz.ch/remote.php/webdav/lakeice_sentinel/sar_ice.zip) containing pre-trained weights, tfrecords, and dataset, and extract it in models/research/deeplab/datasets
+cd models/research/deeplab
+bash train_and_val_sar_ice.sh 2016_17_2017_18_vv_vh_sils_silvaplana_stmoritz_2016_17 2016_17_regionsils mobilenet_v2 V
 -----
 ##### Parameters:
 - Dataset: 2016_17_2017_18_vv_vh_sils_silvaplana_stmoritz_2016_17
