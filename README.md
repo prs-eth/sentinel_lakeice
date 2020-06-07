@@ -5,7 +5,6 @@ Roberto Aguilar, Manu Tom, Pascal Imhof, Silvan Leinss, Emmanuel Baltsavias, Kon
 
 This work is part of the [Lake Ice Project (Phase 2)](https://prs.igp.ethz.ch/research/current_projects/integrated-lake-ice-monitoring-and-generation-of-sustainable--re.html). Here is the link to [Phase 1](https://prs.igp.ethz.ch/research/completed_projects/integrated-monitoring-of-ice-in-selected-swiss-lakes.html) of the same project.
 
-## Results
 * Deep learning for SAR Sentinel-1 semantic segmentation is based on [Deeplab v3+](https://arxiv.org/abs/1706.05587).
 ![segmentation_sar](figures/qual_tran_sils.jpg)
 
