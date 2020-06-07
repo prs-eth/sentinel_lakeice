@@ -18,9 +18,9 @@ The required libraries can be installed by running
 
 ## To run a validation test with existing dataset:
 
-Download the [zip file](https://polybox.ethz.ch/remote.php/webdav/lakeice_sentinel/sar_ice.zip) containing pre-trained weights, tfrecords, and dataset, and extract it in models/research/deeplab/datasets
-cd models/research/deeplab
-bash train_and_val_sar_ice.sh 2016_17_2017_18_vv_vh_sils_silvaplana_stmoritz_2016_17 2016_17_regionsils mobilenet_v2 V
+> * Download the [zip file](https://polybox.ethz.ch/remote.php/webdav/lakeice_sentinel/sar_ice.zip) containing pre-trained weights, tfrecords, and dataset, and extract it in models/research/deeplab/datasets
+> * cd models/research/deeplab
+> * bash train_and_val_sar_ice.sh 2016_17_2017_18_vv_vh_sils_silvaplana_stmoritz_2016_17 2016_17_regionsils mobilenet_v2 V
 -----
 ##### Parameters:
 - Dataset: 2016_17_2017_18_vv_vh_sils_silvaplana_stmoritz_2016_17
@@ -65,11 +65,11 @@ It was generated with the script data_scripting/preprocessing_sar.ipynb and in s
 Takes ~8 hours on GeForceGTX1080Ti
 
 ## To generate a new dataset:
-> Download images from https://polybox.ethz.ch/index.php/s/AjRHiOQhvf0vrku&nbsp;
-> Place sentinel1 folder into data/rasters/&nbsp;
-> Open data_scripting/preprocessing_sar.ipynb&nbsp;
-> Configure winter and lakes for training and validation set&nbsp;
-> Update models/research/deeplab/datasets/segmentation_dataset.py&nbsp;
+> * Download images from https://polybox.ethz.ch/index.php/s/AjRHiOQhvf0vrku&nbsp;
+> * Place sentinel1 folder into data/rasters/&nbsp;
+> * Open data_scripting/preprocessing_sar.ipynb&nbsp;
+> * Configure winter and lakes for training and validation set&nbsp;
+> * Update models/research/deeplab/datasets/segmentation_dataset.py&nbsp;
 
 ## Download from Google Earth Engine
 
