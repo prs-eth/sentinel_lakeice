@@ -22,7 +22,7 @@ The required libraries can be installed by running
 -----
 ##### Parameters:
 - Dataset: 2016_17_2017_18_vv_vh_sils_silvaplana_stmoritz_2016_17
-- Experiment folder folder:
+- Folder:
     - Input weights shall be placed in *train* subfolder
     - Output visualization images will be stored in *vis* subfolder
 - Network: mobilenet_v2
