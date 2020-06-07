@@ -2,33 +2,31 @@
 
 This repository contains the source code, dataset and pre-trained models corresponding to the paper [Lake Ice Detection from Sentinel-1 SAR with Deep Learning](https://arxiv.org/pdf/2002.07040.pdf) (accepted for ISPRS Congress, 2020, Nice, France)
 
-This work is part of the [Lake Ice Project (Phase 2)](https://prs.igp.ethz.ch/research/current_projects/integrated-lake-ice-monitoring-and-generation-of-sustainable--re.html). Here is the link to [Phase 1](https://prs.igp.ethz.ch/research/completed_projects/integrated-monitoring-of-ice-in-selected-swiss-lakes.html) of the same project.
-
-* Deep learning for SAR Sentinel-1 semantic segmentation is based on [Deeplab v3+](https://arxiv.org/abs/1706.05587).
 ![segmentation_sar](figures/qual_tran_sils.jpg)
 
-* Rasters correspinging to Sentinel 1 were downloaded from [Google Earth Engine](https://earthengine.google.com/)
+This work is part of the [Lake Ice Project (Phase 2)](https://prs.igp.ethz.ch/research/current_projects/integrated-lake-ice-monitoring-and-generation-of-sustainable--re.html). Here is the link to [Phase 1](https://prs.igp.ethz.ch/research/completed_projects/integrated-monitoring-of-ice-in-selected-swiss-lakes.html) of the same project.
+
+* Our Sentinel-1 SAR semantic segmentation system is based on [Deeplab v3+](https://arxiv.org/abs/1706.05587).
+* Rasters corresponding to Sentinel-1 were downloaded from [Google Earth Engine](https://earthengine.google.com/)
 
 ## Dependencies
 
 The required libraries can be installed by running
 > pip install -r requirements.txt
 
-## To run a validation test with existing dataset:
+## To reproduce our results without training:
 
 > * Download the [zip file](https://polybox.ethz.ch/remote.php/webdav/lakeice_sentinel/sar_ice.zip) containing pre-trained weights, tfrecords, and dataset, and extract it in models/research/deeplab/datasets
 > * cd models/research/deeplab
-> * bash train_and_val_sar_ice.sh 2016_17_2017_18_vv_vh_sils_silvaplana_stmoritz_2016_17 2016_17_regionsils mobilenet_v2 V
+> * bash train_and_val_sar_ice.sh <dataset_name> 2016_17_regionsils <network_type> <validation_mode>
+(example:  bash train_and_val_sar_ice.sh 2016_17_2017_18_vv_vh_sils_silvaplana_stmoritz_2016_17 2016_17_regionsils mobilenet_v2 V)
 -----
-##### Parameters:
-- Dataset: 2016_17_2017_18_vv_vh_sils_silvaplana_stmoritz_2016_17
 - Folder:
     - Input weights shall be placed in *train* subfolder
     - Output visualization images will be stored in *vis* subfolder
-- Network: mobilenet_v2
-- V: validation mode
 
 Takes ~30 min on GPU Quadro M1200
+
 Results are stored in models/research/deeplab/datasets/sar_ice/exp_2016_17_regionsils
 
 ### Sample dataset
