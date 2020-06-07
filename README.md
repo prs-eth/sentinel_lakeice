@@ -7,7 +7,7 @@ This repository contains the source code, dataset and pre-trained models corresp
 This work is part of the [Lake Ice Project (Phase 2)](https://prs.igp.ethz.ch/research/current_projects/integrated-lake-ice-monitoring-and-generation-of-sustainable--re.html). Here is the link to [Phase 1](https://prs.igp.ethz.ch/research/completed_projects/integrated-monitoring-of-ice-in-selected-swiss-lakes.html) of the same project.
 
 * Our Sentinel-1 SAR semantic segmentation system is based on [Deeplab v3+](https://arxiv.org/abs/1706.05587).
-* Rasters corresponding to Sentinel-1 were downloaded from [Google Earth Engine](https://earthengine.google.com/)
+* Rasters corresponding to Sentinel-1 were downloaded from [Google Earth Engine (GEE)](https://earthengine.google.com/)
 
 ## Dependencies
 
@@ -19,6 +19,7 @@ The required libraries can be installed by running
 > * Download the [zip file](https://polybox.ethz.ch/remote.php/webdav/lakeice_sentinel/sar_ice.zip) containing pre-trained weights, tfrecords, and dataset, and extract it in models/research/deeplab/datasets
 > * cd models/research/deeplab
 > * bash train_and_val_sar_ice.sh <dataset_name> 2016_17_regionsils <network_type> <validation_mode>
+
 (example:  bash train_and_val_sar_ice.sh 2016_17_2017_18_vv_vh_sils_silvaplana_stmoritz_2016_17 2016_17_regionsils mobilenet_v2 V)
 -----
 - Folder:
@@ -31,7 +32,7 @@ Results are stored in models/research/deeplab/datasets/sar_ice/exp_2016_17_regio
 
 ### Sample dataset
 
-A sample dataset 2016_17_2017_18_vv_vh_sils_silvaplana_stmoritz_2016_17 is provided in models/research/deeplab/datasets/sar_ice. It name follows this convention:
+A sample dataset 2016_17_2017_18_vv_vh_sils_silvaplana_stmoritz_2016_17 is provided in models/research/deeplab/datasets/sar_ice. Its name follows this convention:
 \<winter1\>\_\<winter2\>\_\<band1\>\_\<band2\>\<lake1\>\_\<lake2\>\_\<lanen\>\_\<validationset\>
 
 It was generated with the script data_scripting/preprocessing_sar.ipynb and in split in the following folders:
@@ -67,14 +68,14 @@ Takes ~8 hours on GeForceGTX1080Ti
 > * Configure winter and lakes for training and validation set&nbsp;
 > * Update models/research/deeplab/datasets/segmentation_dataset.py&nbsp;
 
-## Download from Google Earth Engine
+## Downloading from Google Earth Engine
 
-Example for downloading Sils lake images for winter 2017-18 with VV available on: https://code.earthengine.google.com/?scriptPath=users%2Frobertoaguilar%2Flakeice%3Asentinel1. It requires a Google Earth Engine account to be accessed.
+An example code to download the images of lake Sils from winter 2017-18 (with VV) is available on: https://code.earthengine.google.com/?scriptPath=users%2Frobertoaguilar%2Flakeice%3Asentinel1. You will need to create a GEE account.
 
-* To download several images, run the script data_scripting/gee_browser.js on the browser once GEE tasks are ready after running the downloading script.
+* To download several images, run the script: data_scripting/gee_browser.js on the browser once GEE tasks are ready (after running the downloading script).
 
 ### Citation
 
 Kindly cite our paper, if you use this repo:
 
-@inproceedings{tom_aguilar_2020:isprs, author={Tom, M. and Aguilar, R. and Imhof, P. and Leinss, S. and Baltsavias, E. and Schindler, K.}, booktitle={arXiv preprint: arXiv:2002.07040}, title={Lake Ice Detection from Sentinel-1 SAR with Deep Learning}, year={2020}, }
+@inproceedings{tom_aguilar_2020:isprs, author={Tom, M. and Aguilar, R. and Imhof, P. and Leinss, S. and Baltsavias, E. and Schindler, K.}, booktitle={arXiv preprint: arXiv:2002.07040v2}, title={Lake Ice Detection from Sentinel-1 SAR with Deep Learning}, year={2020}, }
