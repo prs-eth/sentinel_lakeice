@@ -15,18 +15,13 @@ were downloaded from [Google Earth Engine (GEE)](https://earthengine.google.com/
 The required libraries can be installed by running
 > pip install -r requirements.txt
 
-## To reproduce our results of leave one winter out experiment (trained on winter 2017-18 data and tested on winter 2016-17):
-
-> * Download the [zip file](https://polybox.ethz.ch/remote.php/webdav/lakeice_sentinel/sar_ice.zip) containing pre-trained weights, tfrecords, and dataset, and extract it in models/research/deeplab/datasets
-- Folder structure:
-    - Input weights shall be placed in *train* subfolder
-    - Output visualization images will be stored in *vis* subfolder
+## General syntax for running our model
 > * cd models/research/deeplab
 > * bash train_and_val_sar_ice.sh <dataset_name> <experiment_name> <network_type> <validation_mode>
 
 #### More details on <dataset_name>:
 A sample dataset 2016_17_2017_18_vv_vh_sils_silvaplana_stmoritz_2016_17 is provided in models/research/deeplab/datasets/sar_ice. Its name follows this convention:
-\<winter1\>\_\<winter2\>\_\<band1\>\_\<band2\>\<lake1\>\_\<lake2\>\_\<lanen\>\_\<validationset\>
+\<winter1\>\_\<winter2\>\_\<band1\>\_\<band2\>\<lake1\>\_\<lake2\>\_\<lakeN\>\_\<validationset\>
 
 It was generated with the script data_scripting/preprocessing_sar.ipynb and in split in the following folders:
 
@@ -43,6 +38,12 @@ It was generated with the script data_scripting/preprocessing_sar.ipynb and in s
 #### Options for <validation_mode>:
 -V (Testing only)
 -TV (Training and validation)
+
+## To reproduce our results of leave one winter out experiment (trained on winter 2017-18 data and tested on winter 2016-17):
+> * Download the [zip file](https://polybox.ethz.ch/remote.php/webdav/lakeice_sentinel/sar_ice.zip) containing pre-trained weights, tfrecords, and dataset, and extract it in models/research/deeplab/datasets
+- Folder structure:
+    - Input weights shall be placed in *train* subfolder
+    - Output visualization images will be stored in *vis* subfolder
 
 ## To reproduce our results without training:
 example:  bash train_and_val_sar_ice.sh 2016_17_2017_18_vv_vh_sils_silvaplana_stmoritz_2016_17 2016_17_regionsils mobilenet_v2 V
