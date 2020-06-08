@@ -47,11 +47,12 @@ and is split in the following folders:
 
 ## To reproduce our results of leave one winter out experiment (train on w2017-18 and test on w2016-17) without training the network:
 > * Download the [zip file](https://polybox.ethz.ch/remote.php/webdav/lakeice_sentinel/sar_ice.zip) containing pre-trained weights, tfrecords, and dataset, and extract it in models/research/deeplab/datasets
-- Folder structure:
-    - Input weights shall be placed in *train* subfolder
-    - Output visualization images will be stored in *vis* subfolder
 
 > bash train_and_val_sar_ice.sh 2016_17_2017_18_vv_vh_sils_silvaplana_stmoritz_2016_17 2016_17_regionsils mobilenet_v2 V
+
+> Folder structure:
+    - Input weights shall be placed in *train* subfolder
+    - Output visualization images will be stored in *vis* subfolder
 
 Takes ~30 min on GPU Quadro M1200
 
