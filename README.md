@@ -15,10 +15,10 @@ were downloaded from [Google Earth Engine (GEE)](https://earthengine.google.com/
 The required libraries can be installed by running
 > pip install -r requirements.txt
 
-## To reproduce our results of leave one winter out experiment (trained using winter 2017-18 and test on winter 2016-17):
+## To reproduce our results of leave one winter out experiment (trained on winter 2017-18 data and tested on winter 2016-17):
 
-> * Download the [zip file](https://polybox.ethz.ch/remote.php/webdav/lakeice_sentinel/sar_ice.zip) containing pre-trained weights, tfrecords, and dataset (to test on winter 2016-17 on the three lakes, and extract it in models/research/deeplab/datasets
-- Folder:
+> * Download the [zip file](https://polybox.ethz.ch/remote.php/webdav/lakeice_sentinel/sar_ice.zip) containing pre-trained weights, tfrecords, and dataset, and extract it in models/research/deeplab/datasets
+- Folder structure:
     - Input weights shall be placed in *train* subfolder
     - Output visualization images will be stored in *vis* subfolder
 > * cd models/research/deeplab
