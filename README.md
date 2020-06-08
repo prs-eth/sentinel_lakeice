@@ -48,9 +48,11 @@ and is split in the following folders:
 ## To reproduce our results of leave one winter out experiment (train on w2017-18 and test on w2016-17) without training the network:
 > * Download the [zip file](https://polybox.ethz.ch/remote.php/webdav/lakeice_sentinel/sar_ice.zip) containing pre-trained weights, tfrecords, and dataset, and extract it in models/research/deeplab/datasets
 
+Run:
+
 > bash train_and_val_sar_ice.sh 2016_17_2017_18_vv_vh_sils_silvaplana_stmoritz_2016_17 2016_17_regionsils mobilenet_v2 V
 
-> Folder structure:
+Folder structure:
     - Input weights shall be placed in *train* subfolder
     - Output visualization images will be stored in *vis* subfolder
 
@@ -59,7 +61,7 @@ Takes ~30 min on GPU Quadro M1200
 Results are stored in models/research/deeplab/datasets/sar_ice/exp_2016_17_regionsils
 
 
-## To train a model with an existing dataset (tested on NVIDIA GeForceGTX1080Ti):
+## To train a model
 
 > bash train_and_val_sar_ice.sh 2016_17_2017_18_vv_vh_sils_silvaplana_stmoritz_2016_17 2016_17_regionsils mobilenet_v2 TV 0.001 40000 1 8 129
 -----
@@ -77,7 +79,7 @@ Results are stored in models/research/deeplab/datasets/sar_ice/exp_2016_17_regio
 
 Takes ~8 hours on GeForceGTX1080Ti
 
-## To generate a new sub-dataset for a differnt experiment:
+## To generate a new sub-dataset for a differet experiment:
 > * Download images from https://polybox.ethz.ch/index.php/s/AjRHiOQhvf0vrku&nbsp;
 > * Place sentinel1 folder into data/rasters/&nbsp;
 > * Open data_scripting/preprocessing_sar.ipynb&nbsp;
