@@ -20,10 +20,16 @@ The required libraries can be installed by running
 > * bash train_and_val_sar_ice.sh <dataset_name> <experiment_name> <network_type> <validation_mode>
 
 #### More details on <dataset_name>:
-A sample dataset 2016_17_2017_18_vv_vh_sils_silvaplana_stmoritz_2016_17 is provided in models/research/deeplab/datasets/sar_ice. Its name follows this convention:
-\<winter1\>\_\<winter2\>\_\<band1\>\_\<band2\>\<lake1\>\_\<lake2\>\_\<lakeN\>\_\<validationset\>
+A sample dataset "2016_17_2017_18_vv_vh_sils_silvaplana_stmoritz_2016_17" is provided in:
+>models/research/deeplab/datasets/sar_ice
 
-It was generated with the script data_scripting/preprocessing_sar.ipynb and in split in the following folders:
+Its name follows this convention:
+>\<winter1\>\_\<winter2\>\_\<band1\>\_\<band2\>\<lake1\>\_\<lake2\>\_\<lakeN\>\_\<validationset\>
+
+It was generated with the script 
+>data_scripting/preprocessing_sar.ipynb
+
+and is split in the following folders:
 
 - dataset_2016_17_2017_18_vv_vh_sils_silvaplana_stmoritz_2016_17
     - ImageSets: training and validation file list
@@ -32,21 +38,20 @@ It was generated with the script data_scripting/preprocessing_sar.ipynb and in s
 - tfrecord_2016_17_2017_18_vv_vh_sils_silvaplana_stmoritz_2016_17
 
 #### Options for <network_type>:
--mobilenet_v2
--Xception-65
+>mobilenet_v2, 
+>Xception-65
 
 #### Options for <validation_mode>:
--V (Testing only)
--TV (Training and validation)
+>V (Testing only), 
+>TV (Training and testing)
 
-## To reproduce our results of leave one winter out experiment (trained on winter 2017-18 data and tested on winter 2016-17):
+## To reproduce our results of leave one winter out experiment (train on w2017-18 and test on w2016-17) without training the network:
 > * Download the [zip file](https://polybox.ethz.ch/remote.php/webdav/lakeice_sentinel/sar_ice.zip) containing pre-trained weights, tfrecords, and dataset, and extract it in models/research/deeplab/datasets
 - Folder structure:
     - Input weights shall be placed in *train* subfolder
     - Output visualization images will be stored in *vis* subfolder
 
-## To reproduce our results without training:
-example:  bash train_and_val_sar_ice.sh 2016_17_2017_18_vv_vh_sils_silvaplana_stmoritz_2016_17 2016_17_regionsils mobilenet_v2 V
+> bash train_and_val_sar_ice.sh 2016_17_2017_18_vv_vh_sils_silvaplana_stmoritz_2016_17 2016_17_regionsils mobilenet_v2 V
 
 Takes ~30 min on GPU Quadro M1200
 
