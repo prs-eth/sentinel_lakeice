@@ -14,7 +14,5 @@ models/research/*
 !models/research/deeplab
 !models/research/slim
 models/research/deeplab/datasets/sar_ice
-!models/research/deeplab/datasets/sar_ice/dataset_2016_17_2017_18_vv_vh_sils_silvaplana_stmoritz_2016_17
-!models/research/deeplab/datasets/sar_ice/tfrecord_2016_17_2017_18_vv_vh_sils_silvaplana_stmoritz_2016_17
-!models/research/deeplab/datasets/sar_ice/exp_2017_18_regionsils/train_on_train_set/train
+models/research/deeplab/datasets/sar_ice.zip
 *npy

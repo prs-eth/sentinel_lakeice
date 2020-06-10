@@ -60,6 +60,7 @@ Takes ~30 min on GPU Quadro M1200
 
 Results are stored in models/research/deeplab/datasets/sar_ice/exp_2016_17_regionsils
 
+**Note:**  An entry with the name and size of 2016_17_2017_18_vv_vh_sils_silvaplana_stmoritz_2016_17 dataset has been already added to the models/research/deeplab/datasets/segmentation_dataset.py file. In case of adding a new dataset, an entry needs to be included in this file.
 
 ## To train a model
 
@@ -78,13 +79,6 @@ Results are stored in models/research/deeplab/datasets/sar_ice/exp_2016_17_regio
 - Patch size: 129 -> it generates a 129x129 pixels window
 
 Takes ~8 hours on GeForceGTX1080Ti
-
-## To generate a new sub-dataset for a differet experiment:
-> * Download images from https://polybox.ethz.ch/index.php/s/AjRHiOQhvf0vrku&nbsp;
-> * Place sentinel1 folder into data/rasters/&nbsp;
-> * Open data_scripting/preprocessing_sar.ipynb&nbsp;
-> * Configure winter and lakes for training and validation set&nbsp;
-> * Update models/research/deeplab/datasets/segmentation_dataset.py&nbsp;
 
 ## Downloading from Google Earth Engine
 
