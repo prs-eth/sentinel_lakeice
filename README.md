@@ -46,7 +46,9 @@ and is split in the following folders:
 >TV (Training and testing)
 
 ## To reproduce our results of leave one winter out experiment (train on w2017-18 and test on w2016-17) without training the network:
-> * Download the [zip file](https://polybox.ethz.ch/remote.php/webdav/lakeice_sentinel/sar_ice.zip) containing pre-trained weights, tfrecords, and dataset, and extract it in models/research/deeplab/datasets
+> * Download the dataset from GEE platform (we cannot provide the dataset due to copyright reasons) and extract it in models/research/deeplab/datasets
+(Note that, we processed all the available data from the beiginning of September till end of May in each winter)
+> Please contact us for the pre-trained model
 
 Run:
 
