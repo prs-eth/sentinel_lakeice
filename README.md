@@ -46,7 +46,7 @@ and is split in the following folders:
 >TV (Training and testing)
 
 ## To reproduce our results of leave one winter out experiment (train on w2017-18 and test on w2016-17) without training the network:
-- * Download the dataset from GEE platform (we cannot provide the dataset due to copyright reasons) and extract it in: models/research/deeplab/datasets
+- Download the dataset from GEE platform (we cannot provide the dataset due to copyright reasons) and extract it in: models/research/deeplab/datasets
 (Note that, we processed all the available data from the beiginning of September till end of May in each winter)
 - [Download](https://share.phys.ethz.ch/~pf/tommdata/Sentinel-1_SAR/pre-trained-model.zip) the Deeplab v3+ model (~105MB) pre-trained on our SAR dataset. 
 
