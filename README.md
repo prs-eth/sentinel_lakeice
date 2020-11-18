@@ -10,7 +10,7 @@ This repository contains the source code (tensorflow) and pre-trained model corr
 This work is part of the [Lake Ice Project (Phase 2)](https://prs.igp.ethz.ch/research/current_projects/integrated-lake-ice-monitoring-and-generation-of-sustainable--re.html) funded by MeteoSwiss in the GCOS Switzerland framework. Here is the link to [Phase 1](https://prs.igp.ethz.ch/research/completed_projects/integrated-monitoring-of-ice-in-selected-swiss-lakes.html) of the same project.
 
 Note that:<br>
-* Our Sentinel-1 SAR semantic segmentation system is based on [Deeplab v3+](https://arxiv.org/abs/1706.05587).
+* Our Sentinel-1 SAR semantic segmentation system is based on [Deeplab v3+](https://arxiv.org/pdf/1802.02611.pdf).
 * Rasters corresponding to Sentinel-1 SAR 
 were downloaded from [Google Earth Engine (GEE)](https://earthengine.google.com/)
 
@@ -112,7 +112,7 @@ Kindly cite our paper, if you use this project in your research:
 1. Multi-sensor lake ice monitoring with machine (deep) learning. [Project github page](https://github.com/czarmanu/lake-ice-ml).
 2. Lake ice monitoring with webcams and crowd-sourced images with Deep-U-Lab. [Github repo (tensorflow code, pre-trained model)](https://github.com/czarmanu/deeplab-lakeice-webcams). 
 3. Tom, M., Suetterlin, M., Bouffard, D., Rothermel, M., Wunderle, S., Baltsavias, E., 2019. [Integrated monitoring of ice
-in selected Swiss lakes](https://ethz.ch/content/dam/ethz/special-interest/baug/igp/photogrammetry-remote-sensing-dam/documents/pdf/Misc/Ice%20Lake_Final_Report_draft15.pdf). Final Project Report
+in selected Swiss lakes](https://arxiv.org/abs/2008.00512). Final Project Report
 
 ## Licence
 
