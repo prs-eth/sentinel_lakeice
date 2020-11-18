@@ -113,6 +113,7 @@ Kindly cite our paper, if you use this project in your research:
 2. Lake ice monitoring with webcams and crowd-sourced images with Deep-U-Lab. [Github repo (tensorflow code, pre-trained model)](https://github.com/czarmanu/deeplab-lakeice-webcams). 
 3. Tom, M., Suetterlin, M., Bouffard, D., Rothermel, M., Wunderle, S., Baltsavias, E., 2019. [Integrated monitoring of ice
 in selected Swiss lakes](https://arxiv.org/abs/2008.00512). Final Project Report
+4. Tom et al. 2020, [Ice monitoring in Swiss lakes from optical satellites and webcams using machine learning](https://www.mdpi.com/2072-4292/12/21/3555), MDPI Remote Sensing, 12(21), 3555
 
 ## Licence
 
