@@ -1,6 +1,7 @@
 # Lake Ice Detection from Sentinel-1 SAR with Deep Learning
 
 This repository contains the source code (tensorflow) and pre-trained model corresponding to the paper:<br>
+
 >[Lake Ice Detection from Sentinel-1 SAR with Deep Learning](https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/V-3-2020/409/2020/) (presented at the ISPRS Congress, 2020, virtual conference)<br>
 > by Manu Tom, Roberto Aguilar, Pascal Imhof, Silvan Leinss, Emmanuel Baltsavias and Konrad Schindler
 
@@ -15,9 +16,6 @@ were downloaded from [Google Earth Engine (GEE)](https://earthengine.google.com/
 
 ## Pre-trained model
 [Download](https://share.phys.ethz.ch/~pf/tommdata/Sentinel-1_SAR/pre-trained-model.zip) the Deeplab v3+ network weights (~105MB) pre-trained on our SAR dataset.
-
-The required libraries can be installed by running
-> pip install -r requirements.txt
 
 ## Dependencies
 
@@ -97,7 +95,7 @@ An example code to download the images of lake Sils from winter 2017-18 (with VV
 
 * To download several images, run the script: data_scripting/gee_browser.js on the browser once GEE tasks are ready (after running the downloading script).
 
-### Citation
+## Citation
 
 Kindly cite our paper, if you use this project in your research:
 
@@ -109,6 +107,12 @@ Kindly cite our paper, if you use this project in your research:
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;volume    = {V-3-2020},<br>
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pages     = {409--416},<br>
 }
+
+## Useful links
+1. Multi-sensor lake ice monitoring with machine (deep) learning. [Project github page](https://github.com/czarmanu/lake-ice-ml).
+2. Lake ice monitoring with webcams and crowd-sourced images with Deep-U-Lab. [Github repo (tensorflow code, pre-trained model)](https://github.com/czarmanu/deeplab-lakeice-webcams). 
+3. Tom, M., Suetterlin, M., Bouffard, D., Rothermel, M., Wunderle, S., Baltsavias, E., 2019. [Integrated monitoring of ice
+in selected Swiss lakes](https://ethz.ch/content/dam/ethz/special-interest/baug/igp/photogrammetry-remote-sensing-dam/documents/pdf/Misc/Ice%20Lake_Final_Report_draft15.pdf). Final Project Report
 
 ## Licence
 
